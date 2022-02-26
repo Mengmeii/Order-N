@@ -1,8 +1,8 @@
-## 你好
+## 考虑量级 order N 的推导
 
-You can use the [editor on GitHub](https://github.com/Mengmeii/Mengmeii.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+主要就是在稀疏过程中，求和符号∑不能转变成积分的形式，参照方法使用迭代进行尝试。  
+公式的改变为：  
+<img src="https://latex.codecogs.com/svg.image?z_{i}^{l}=\frac{1}{\rho}&space;\sum_{j}&space;W_{i&space;j}^{l}&space;p_{i&space;j}^{l}&space;y_{j}^{l-1}&plus;b_{i}^{l}" title="z_{i}^{l}=\frac{1}{\rho} \sum_{j} W_{i j}^{l} p_{i j}^{l} y_{j}^{l-1}+b_{i}^{l}" />
 
 ### Markdown
 
